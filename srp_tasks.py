@@ -99,6 +99,8 @@ class TaskManager:
 
 # oop_tasks.py (ต่อจาก Class TaskManager)
 
+print("Finished")
+
 if __name__ == "__main__":
     storage = FileTaskStorage("my_tasks.txt")  # สร้าง storage object
     manager = TaskManager(storage)             # ส่งเข้า TaskManager
